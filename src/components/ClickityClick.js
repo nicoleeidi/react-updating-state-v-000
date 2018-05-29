@@ -1,20 +1,20 @@
 // Code ClickityClick Component Here
 import React from 'react';
- 
+
 class ClickityClick extends React.Component {
   constructor() {
     super();
- 
+
     // Define the initial state:
     this.state = {
       hasBeenClicked: false,
     };
   }
- 
+
   handleClick = () => {
     // Update our state here...
   }
- 
+
   render() {
     return (
       <div>
@@ -24,6 +24,6 @@ class ClickityClick extends React.Component {
     );
   }
 }
- 
+
 export default ClickityClick;
  
