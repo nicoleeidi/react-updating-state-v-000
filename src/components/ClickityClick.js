@@ -12,7 +12,7 @@ class ClickityClick extends React.Component {
   }
 
   handleClick = () => {
-    handleClick = () => {
+  
   this.setState({
     hasBeenClicked: true
   })
@@ -31,4 +31,3 @@ class ClickityClick extends React.Component {
 }
 
 export default ClickityClick;
- 
